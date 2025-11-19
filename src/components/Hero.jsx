@@ -21,7 +21,7 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900"
             >
-              Grow Your Local Business With Your Own AI Assistant
+              Crește-ți afacerea locală cu propriul tău asistent AI
             </motion.h1>
 
             <motion.p
@@ -31,7 +31,7 @@ export default function Hero() {
               transition={{ delay: 0.1, duration: 0.6 }}
               className="mt-4 text-lg md:text-xl text-slate-700 max-w-2xl"
             >
-              Automate reservations, messages, and support — 24/7.
+              Automatizează rezervările, mesajele și suportul — 24/7.
             </motion.p>
 
             <motion.div
@@ -41,8 +41,8 @@ export default function Hero() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="mt-8 flex flex-wrap gap-4"
             >
-              <a href="#contact" className="px-6 py-3 rounded-full bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition-colors">Book a Demo</a>
-              <a href="#pricing" className="px-6 py-3 rounded-full border border-slate-300 text-slate-800 font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">Get Your AI Assistant</a>
+              <a href="#contact" className="px-6 py-3 rounded-full bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition-colors">Programează un demo</a>
+              <a href="#pricing" className="px-6 py-3 rounded-full border border-slate-300 text-slate-800 font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">Obține-ți asistentul AI</a>
             </motion.div>
 
             <motion.ul
@@ -53,14 +53,14 @@ export default function Hero() {
               className="mt-8 grid sm:grid-cols-2 gap-3 text-slate-600 text-sm"
             >
               {[
-                'Customer support',
-                'Appointment scheduling',
-                'Reservations',
-                'FAQs',
-                'Recommendations',
-                'Upsells',
-                'Message automation (WhatsApp, Instagram, Facebook)',
-                '24/7 availability',
+                'Suport clienți',
+                'Programări',
+                'Rezervări',
+                'Întrebări frecvente (FAQ)',
+                'Recomandări',
+                'Upsell-uri',
+                'Automatizare mesaje (WhatsApp, Instagram, Facebook)',
+                'Disponibilitate 24/7',
               ].map(item => (
                 <li key={item} className="flex items-center gap-2">
                   <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-600/10 text-blue-700 text-xs font-bold">✓</span>

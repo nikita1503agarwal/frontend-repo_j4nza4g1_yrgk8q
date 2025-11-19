@@ -24,8 +24,8 @@ function App() {
 
       <footer className="py-8 border-t border-slate-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-slate-600">© {new Date().getFullYear()} LocalAI Assist. All rights reserved.</p>
-          <div className="text-sm text-slate-600">Built for local businesses: restaurants • clinics • salons • car services • dental</div>
+          <p className="text-sm text-slate-600">© {new Date().getFullYear()} LocalAI Assist. Toate drepturile rezervate.</p>
+          <div className="text-sm text-slate-600">Creat pentru afaceri locale: restaurante • clinici • saloane • service auto • stomatologie</div>
         </div>
       </footer>
     </div>

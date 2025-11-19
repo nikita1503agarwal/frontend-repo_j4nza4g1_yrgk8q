@@ -5,11 +5,11 @@ export default function Navbar() {
   const [open, setOpen] = React.useState(false)
 
   const navItems = [
-    { label: 'How It Works', href: '#how' },
-    { label: 'Features', href: '#features' },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'Cum funcționează', href: '#how' },
+    { label: 'Funcționalități', href: '#features' },
+    { label: 'Prețuri', href: '#pricing' },
     { label: 'Demo', href: '#demo' },
-    { label: 'FAQ', href: '#faq' },
+    { label: 'Întrebări frecvente', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ]
 
@@ -28,7 +28,7 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href="#contact" className="px-4 py-2 rounded-full bg-blue-600 text-white font-medium shadow hover:bg-blue-700 transition-colors">Get Started</a>
+            <a href="#contact" className="px-4 py-2 rounded-full bg-blue-600 text-white font-medium shadow hover:bg-blue-700 transition-colors">Începe acum</a>
           </nav>
 
           <button className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md text-slate-700" onClick={() => setOpen(v => !v)} aria-label="Toggle menu">
@@ -46,7 +46,7 @@ export default function Navbar() {
               </a>
             ))}
             <a href="#contact" className="mt-2 px-4 py-2 rounded-full bg-blue-600 text-white font-medium w-max" onClick={() => setOpen(false)}>
-              Get Started
+              Începe acum
             </a>
           </div>
         </div>

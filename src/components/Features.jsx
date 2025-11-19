@@ -4,20 +4,20 @@ import { Clock, CalendarCheck2, Zap, Layers, TrendingUp, Smile } from 'lucide-re
 
 export default function Features() {
   const features = [
-    { icon: Clock, title: '24/7 support', desc: 'Never miss a message or booking again.' },
-    { icon: CalendarCheck2, title: 'Automated bookings', desc: 'Real-time scheduling and reservations.' },
-    { icon: Zap, title: 'Fast responses', desc: 'Instant answers to FAQs and requests.' },
-    { icon: Layers, title: 'Multi-platform integration', desc: 'WhatsApp, Instagram, Facebook, web chat.' },
-    { icon: TrendingUp, title: 'Built-in upselling', desc: 'Promote add-ons, bundles, and upgrades.' },
-    { icon: Smile, title: 'Better experiences', desc: 'Delight customers with polished service.' },
+    { icon: Clock, title: 'Suport 24/7', desc: 'Nu mai ratezi niciun mesaj sau rezervare.' },
+    { icon: CalendarCheck2, title: 'Rezervări automate', desc: 'Programare în timp real și confirmări.' },
+    { icon: Zap, title: 'Răspunsuri rapide', desc: 'Răspuns instant la întrebări și solicitări.' },
+    { icon: Layers, title: 'Integrare multi-platformă', desc: 'WhatsApp, Instagram, Facebook, chat pe site.' },
+    { icon: TrendingUp, title: 'Upsell integrat', desc: 'Promovează add-on-uri, pachete și upgrade-uri.' },
+    { icon: Smile, title: 'Experiențe mai bune', desc: 'Încântă clienții cu un serviciu impecabil.' },
   ]
 
   return (
     <section id="features" className="py-20 md:py-28 bg-gradient-to-b from-white to-blue-50/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Everything You Need — Done For You</h2>
-          <p className="mt-3 text-slate-600">Purpose-built for restaurants, clinics, salons, car services, dental, and more.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Tot ce ai nevoie — făcut pentru tine</h2>
+          <p className="mt-3 text-slate-600">Creat pentru restaurante, clinici, saloane, service auto, stomatologie și multe altele.</p>
         </div>
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

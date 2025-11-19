@@ -6,18 +6,18 @@ export default function HowItWorks() {
   const steps = [
     {
       icon: Search,
-      title: 'We analyze your business needs',
-      desc: 'A quick discovery call to learn your services, hours, workflows, FAQs, and tools you already use.'
+      title: 'Analizăm nevoile afacerii tale',
+      desc: 'Un scurt call de descoperire ca să înțelegem serviciile, programul, fluxurile, întrebările frecvente și instrumentele pe care le folosești.'
     },
     {
       icon: Brain,
-      title: 'We create and train your custom AI agent',
-      desc: 'We integrate with your calendar, booking, and messaging tools, then train the agent on your policies.'
+      title: 'Creăm și antrenăm asistentul tău AI personalizat',
+      desc: 'Integrăm calendarul, sistemele de rezervări și mesajele, apoi antrenăm agentul cu regulile și politicile tale.'
     },
     {
       icon: Clock,
-      title: 'It works 24/7 to automate your operations',
-      desc: 'From bookings to FAQs and upsells, your assistant handles it — day and night.'
+      title: 'Lucrează 24/7 pentru a-ți automatiza operațiunile',
+      desc: 'De la rezervări la FAQ și upsell, asistentul tău gestionează tot — zi și noapte.'
     },
   ]
 
@@ -25,8 +25,8 @@ export default function HowItWorks() {
     <section id="how" className="py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">How It Works</h2>
-          <p className="mt-3 text-slate-600">Set up in days, not months. Simple, done-for-you process.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Cum funcționează</h2>
+          <p className="mt-3 text-slate-600">Configurare în zile, nu în luni. Un proces simplu, făcut pentru tine.</p>
         </div>
 
         <div className="mt-12 grid md:grid-cols-3 gap-6">

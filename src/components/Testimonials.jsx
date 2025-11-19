@@ -4,16 +4,16 @@ import { motion } from 'framer-motion'
 export default function Testimonials() {
   const items = [
     {
-      name: 'Maria G.', role: 'Salon Owner',
-      quote: 'We booked 27 extra appointments in the first week. The assistant replies instantly and customers love it.'
+      name: 'Maria G.', role: 'Proprietar salon',
+      quote: 'Am programat 27 de ședințe în plus în prima săptămână. Asistentul răspunde instant și clienții sunt încântați.'
     },
     {
-      name: 'Dr. Patel', role: 'Dental Clinic',
-      quote: 'No more missed calls. Patients schedule cleanings via Instagram DMs at night. Huge time saver.'
+      name: 'Dr. Patel', role: 'Clinic3 stomatologic3',
+      quote: 'Nu mai avem apeluri pierdute. Pacienții își programează detartrajul prin Instagram noaptea. Economie uriașă de timp.'
     },
     {
-      name: 'Ramon C.', role: 'Restaurant Manager',
-      quote: 'It handles reservations and recommends specials. Friday nights are smoother and our upsells went up.'
+      name: 'Ramon C.', role: 'Manager restaurant',
+      quote: 'Gestionează rezervările și recomandă specialități. Vinerile sunt mai line și upsell-urile au crescut.'
     },
   ]
 
@@ -21,8 +21,8 @@ export default function Testimonials() {
     <section className="py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Loved by Local Businesses</h2>
-          <p className="mt-3 text-slate-600">Real results, happier customers, and smoother operations.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Iubit de afacerile locale</h2>
+          <p className="mt-3 text-slate-600">Rezultate reale, clienți mai fericiți și operațiuni mai fluide.</p>
         </div>
 
         <div className="mt-12 grid md:grid-cols-3 gap-6">

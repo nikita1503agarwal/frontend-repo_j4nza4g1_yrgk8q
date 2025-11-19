@@ -2,12 +2,12 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const messages = [
-  { role: 'user', text: 'Hi, do you have availability for a haircut tomorrow at 4pm?' },
-  { role: 'ai', text: 'Absolutely! We have an opening at 4:15pm or 4:45pm. Would you like me to book 4:15pm under your name?' },
-  { role: 'user', text: 'Yes, 4:15pm works. Also, how much is a fade with beard trim?' },
-  { role: 'ai', text: 'A fade with beard trim is $35. I can add a hot towel upgrade for $8. Should I include it?' },
-  { role: 'user', text: 'Yes please.' },
-  { role: 'ai', text: 'Done. You’re all set for tomorrow at 4:15pm with the hot towel upgrade. You’ll get a text reminder 2 hours before.' },
+  { role: 'user', text: 'Bună! Aveți disponibil mâine la 16:00 pentru un tuns?' },
+  { role: 'ai', text: 'Desigur! Avem o fereastră la 16:15 sau 16:45. Doriți să rezerv pentru 16:15 pe numele dvs.?' },
+  { role: 'user', text: 'Da, 16:15 e perfect. Și cât costă un fade cu aranjat barbă?' },
+  { role: 'ai', text: 'Un fade cu aranjat barbă este 35$. Pot adăuga un upgrade cu prosop fierbinte pentru 8$. Îl includ?' },
+  { role: 'user', text: 'Da, te rog.' },
+  { role: 'ai', text: 'Gata. Sunteți programat mâine la 16:15 cu upgrade-ul cu prosop fierbinte. Veți primi un reminder prin SMS cu 2 ore înainte.' },
 ]
 
 export default function Demo() {
@@ -15,8 +15,8 @@ export default function Demo() {
     <section id="demo" className="py-20 md:py-28 bg-gradient-to-b from-blue-50/40 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">See It In Action</h2>
-          <p className="mt-3 text-slate-600">A sample conversation between a customer and your AI assistant.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Vezi cum funcționează</h2>
+          <p className="mt-3 text-slate-600">O conversație exemplu între un client și asistentul tău AI.</p>
         </div>
 
         <div className="mt-10 mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white p-6 shadow">
